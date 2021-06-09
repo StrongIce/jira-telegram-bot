@@ -1,13 +1,13 @@
 #Jira конфиги
-jira_login = "telegram_bot"
-jira_api_key = "xmRmMKnScsT4YF4gY8uAXOO4b8vbOqVpe2RrPs"
-server = {'server': 'http://help.corp.ru:8080/'} 
+jira_login = "user" #Логин пользователя с правами админа в Jira
+jira_api_key = "apikey" # API ключ для пользователя(если жира локальная, ключ получается через плагин) 
+server = {'server': 'http://jira.contoso.com:8080/'} # URL сервера
 
 #Токен бота
-botToken = '1593603526:AAGyiKOdMf_Rwdt9yN6latqyh9d6YjELRvg'
+botToken = 'token'
 
 #AD конфиги
-ldap_srv = 'ad.corp.ru'
-ldap_user = 'CORP\ldap_sync'
-ldap_password = "$YSadmjm"
-ldap_ou = 'dc=corp,dc=ru'
+ldap_srv = 'ad.corp.ru' # Контроллер домена
+ldap_user = 'contoso\ldap_sync' # Учетка для синхронизации с каталогом AD
+ldap_password = "password" # Пароль
+ldap_ou = 'dc=contoso,dc=com' # Область поиска LDAP
