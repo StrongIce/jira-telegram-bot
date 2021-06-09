@@ -7,7 +7,7 @@ server = {'server': 'http://jira.contoso.com:8080/'} # URL сервера
 botToken = 'token'
 
 #AD конфиги
-ldap_srv = 'ad.corp.ru' # Контроллер домена
+ldap_srv = 'ad.contoso.com' # Контроллер домена
 ldap_user = 'contoso\ldap_sync' # Учетка для синхронизации с каталогом AD
 ldap_password = "password" # Пароль
 ldap_ou = 'dc=contoso,dc=com' # Область поиска LDAP
