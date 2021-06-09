@@ -11,5 +11,3 @@ ldap_srv = 'ad.corp.ru'
 ldap_user = 'CORP\ldap_sync'
 ldap_password = "$YSadmjm"
 ldap_ou = 'dc=corp,dc=ru'
-
-z = 'hghd'
